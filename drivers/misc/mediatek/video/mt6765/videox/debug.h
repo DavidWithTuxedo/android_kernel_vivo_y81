@@ -27,7 +27,7 @@ extern int dbg_ultlow, dbg_ulthigh, dbg_prehigh, dbg_urg_low, dbg_urg_high;
 
 
 #include "disp_session.h"
-#include "ddp_info.h"
+#include "../dispsys/ddp_info.h"
 extern int disp_layer_info_statistic(
 	struct disp_ddp_path_config *last_config, struct disp_frame_cfg_t *cfg);
 

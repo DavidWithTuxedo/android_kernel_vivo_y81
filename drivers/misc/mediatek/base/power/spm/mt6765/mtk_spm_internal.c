@@ -15,7 +15,7 @@
 #include <linux/module.h>
 #include <linux/random.h>
 #include <asm/setup.h>
-#include <mtk_spm_internal.h>
+#include "mtk_spm_internal.h"
 static u32 pcm_timer_ramp_max_sec_loop = 1;
 
 const char *wakesrc_str[32] = {

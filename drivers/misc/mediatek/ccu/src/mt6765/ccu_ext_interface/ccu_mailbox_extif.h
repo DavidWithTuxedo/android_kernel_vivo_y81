@@ -21,7 +21,7 @@
 #ifndef __CCU_MAILBOX_EXTIF__
 #define __CCU_MAILBOX_EXTIF__
 
-#include "ccu_ext_interface/ccu_ext_interface.h"
+#include "ccu_ext_interface.h"
 
 /*must be power of 2 for modulo operation take work*/
 #define CCU_MAILBOX_QUEUE_SIZE 8

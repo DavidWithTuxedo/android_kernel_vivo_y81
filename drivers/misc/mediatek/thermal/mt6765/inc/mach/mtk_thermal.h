@@ -23,7 +23,7 @@
 
 #include "mt-plat/sync_write.h"
 
-#include "mtk_gpufreq.h"
+#include "../../../../base/power/mt6765/mtk_gpufreq.h"
 
 /*
  * Bank0: CPU-L		(TS_MCU1)

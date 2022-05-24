@@ -15,10 +15,10 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 
-#include <mtk_spm_internal.h>
-#include <mtk_spm_reg.h>
-#include <mtk_sleep_reg_md_reg.h>
-#include <sleep_def.h>
+#include "mtk_spm_internal.h"
+#include "mtk_spm_reg.h"
+#include "mtk_sleep_reg_md_reg.h"
+#include "sleep_def.h"
 
 int spm_dvfs_flag_init(int dvfsrc_en)
 {

@@ -18,8 +18,8 @@
 #include <sspm_ipi.h>
 #include <trace/events/mtk_events.h>
 
-#include <mtk_sspm.h>
-#include <mtk_spm_internal.h>
+#include "mtk_sspm.h"
+#include "mtk_spm_internal.h"
 
 
 #define SPM_D_LEN   (8) /* # of cmd + arg0 + arg1 + ... */

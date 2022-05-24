@@ -23,7 +23,7 @@
 
 #include <mtk_idle.h>
 #include <mtk_idle_internal.h>
-#include <mtk_spm_suspend_internal.h>
+#include "mtk_spm_suspend_internal.h"
 #include <mtk_spm_resource_req.h>
 
 #include "mtk_spm_internal.h"

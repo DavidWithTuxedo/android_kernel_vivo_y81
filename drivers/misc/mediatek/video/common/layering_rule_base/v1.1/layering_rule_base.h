@@ -15,11 +15,11 @@
 #define __LAYERING_RULE_BASE__
 
 #include "disp_session.h"
-#include "disp_lcm.h"
-#include "disp_drv_log.h"
-#include "primary_display.h"
-#include "disp_drv_platform.h"
-#include "display_recorder.h"
+#include "../../../mt6765/videox/disp_lcm.h"
+#include "../../../mt6765/videox/disp_drv_log.h"
+#include "../../../mt6765/videox/primary_display.h"
+#include "../../../mt6765/videox/disp_drv_platform.h"
+#include "../../../mt6765/dispsys/display_recorder.h"
 
 #define PRIMARY_OVL_LAYER_NUM PRIMARY_SESSION_INPUT_LAYER_COUNT
 #define SECONDARY_OVL_LAYER_NUM EXTERNAL_SESSION_INPUT_LAYER_COUNT

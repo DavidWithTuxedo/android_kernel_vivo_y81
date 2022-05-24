@@ -14,7 +14,7 @@
 #ifndef __MTK_SPM_SUSPEND_INTERNAL_H__
 #define __MTK_SPM_SUSPEND_INTERNAL_H__
 
-#include <mtk_spm_internal.h>
+#include "mtk_spm_internal.h"
 
 /**************************************
  * SW code for suspend

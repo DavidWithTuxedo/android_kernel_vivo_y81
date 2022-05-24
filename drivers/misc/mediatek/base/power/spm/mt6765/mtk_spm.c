@@ -28,9 +28,9 @@
 #include <mtk_sleep.h>	    /* slp_module_init */
 #include <mt-plat/aee.h>	/* aee_xxx */
 
-#include <mtk_spm_irq.h>
-#include <mtk_spm_internal.h>
-#include <mtk_sspm.h>
+#include "mtk_spm_irq.h"
+#include "mtk_spm_internal.h"
+#include "mtk_sspm.h"
 
 #include <mtk_idle_sysfs.h>
 DEFINE_SPINLOCK(__spm_lock);

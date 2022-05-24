@@ -18,8 +18,8 @@
 #include <linux/io.h>
 
 #include "mtkfb.h"
-#include "extd_hdmi.h"
-#include "extd_info.h"
+#include "../mt6765/extd_hdmi.h"
+#include "../mt6765/extd_info.h"
 #include <linux/compat.h>
 
 #define HDMI_DRV "/dev/hdmitx"

@@ -23,7 +23,7 @@
 #include <linux/of_irq.h>
 #include <linux/of_fdt.h>
 #include <linux/delay.h>
-#include "sspm_define.h"
+#include "mt6765/sspm_define.h"
 #include "sspm_mbox.h"
 #include "sspm_helper.h"
 
