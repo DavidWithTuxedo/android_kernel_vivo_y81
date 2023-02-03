@@ -27,5 +27,5 @@ fi
 git clone https://github.com/DavidWithTuxedo/android_kernel_vivo_y81
 cd android_kernel_vivo_y81
 make PD1732_Rel_defconfig
-make -j6 2>&1 | tee build.log
+make -j${nproc --all} 2>&1 | tee build.log
 grep -i error -A 3 -B 3 build.log >> error.log
