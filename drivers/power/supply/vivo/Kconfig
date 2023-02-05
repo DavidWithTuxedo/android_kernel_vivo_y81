@@ -1,0 +1,27 @@
+menuconfig VIVO_CHARGING_NEW_ARCH
+	bool "VIVO charging with new arch"
+	help
+	  Say Y here to declare charging with new arch
+
+if VIVO_CHARGING_NEW_ARCH	  
+config VIVO_BQ25890H_FAST_CHARGING
+	bool "VIVO bq25890h fast-charging "
+	help
+	  Say Y here to declare VIVO Charging 
+
+config VIVO_ADAPATOR_5V1A
+	bool "VIVO adapator 5W (5V1A)"
+	help
+	  Say Y here to support 5W Adapator
+
+config VIVO_HAVE_NO_USBOE
+	bool "VIVO without usb0e"
+	help
+	  Say Y here to declare VIVO device without usb0e
+
+config FUEL_SUMMARY
+	bool "fuel_summary"
+	help
+	  Say Y here to declare fuel_summary
+
+endif #VIVO_CHARGING_NEW_ARCH
