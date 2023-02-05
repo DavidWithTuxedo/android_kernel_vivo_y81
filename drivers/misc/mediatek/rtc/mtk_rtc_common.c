@@ -73,7 +73,7 @@
 #include <mt-plat/mtk_charger.h>
 #endif
 #ifdef CONFIG_VIVO_CHARGING_NEW_ARCH
-#include <charge_interface.h>
+//#include <charge_interface.h>
 #endif
 
 
