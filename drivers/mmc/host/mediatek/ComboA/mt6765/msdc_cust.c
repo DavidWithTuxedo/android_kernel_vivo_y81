@@ -27,8 +27,8 @@
 #include <linux/clk.h>
 #include <linux/slab.h>
 
-#include "mtk_sd.h"
-#include "dbg.h"
+#include "../mtk_sd.h"
+#include "../dbg.h"
 #include "include/pmic_api_buck.h"
 #include "../../../../core/slot-gpio.h"
 

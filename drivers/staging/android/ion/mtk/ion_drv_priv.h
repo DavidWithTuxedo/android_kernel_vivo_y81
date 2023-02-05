@@ -14,7 +14,7 @@
 #ifndef __ION_DRV_PRIV_H__
 #define __ION_DRV_PRIV_H__
 
-#include "ion_priv.h"
+#include "../ion_priv.h"
 
 /* STRUCT ION_HEAP *G_ION_HEAPS[ION_HEAP_IDX_MAX]; */
 

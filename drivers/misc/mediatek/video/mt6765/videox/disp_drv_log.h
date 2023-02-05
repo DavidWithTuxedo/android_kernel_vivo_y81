@@ -14,8 +14,8 @@
 #ifndef __DISP_DRV_LOG_H__
 #define __DISP_DRV_LOG_H__
 
-#include "display_recorder.h"
-#include "ddp_debug.h"
+#include "../dispsys/display_recorder.h"
+#include "../dispsys/ddp_debug.h"
 #ifdef CONFIG_MTK_AEE_FEATURE
 #include "mt-plat/aee.h"
 #endif

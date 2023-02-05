@@ -27,7 +27,7 @@
 #include <mt-plat/sync_write.h>
 
 #include <dramc.h>
-#include <mt_emi.h>
+#include "../mt6765/mt_emi.h"
 
 static struct dentry *emi_mbw_dir;
 static struct dentry *dump_buf;

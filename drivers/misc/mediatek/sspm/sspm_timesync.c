@@ -30,11 +30,11 @@
 #include <linux/atomic.h>
 #include <linux/types.h>
 #include <mt-plat/sync_write.h>
-#include "sspm_define.h"
+#include "mt6765/sspm_define.h"
 #include "sspm_helper.h"
 #include "sspm_ipi.h"
 #include "sspm_reservedmem.h"
-#include "sspm_reservedmem_define.h"
+#include "mt6765/sspm_reservedmem_define.h"
 #include "sspm_sysfs.h"
 #include "sspm_timesync.h"
 

@@ -24,7 +24,7 @@
 #include <linux/mutex.h>
 #include <linux/debugfs.h>
 #include <linux/list.h>
-#include <leds-lm3697.h>
+#include "leds-lm3697.h"
 #ifdef CONFIG_HAS_EARLYSUSPEND
 #include <linux/earlysuspend.h>
 #endif

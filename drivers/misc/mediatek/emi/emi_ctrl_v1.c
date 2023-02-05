@@ -21,7 +21,7 @@
 #include <mt-plat/sync_write.h>
 #include <mt-plat/mtk_io.h>
 
-#include <mt_emi.h>
+#include "../mt6765/mt_emi.h"
 #include "emi_ctrl_v1.h"
 
 static void __iomem *CEN_EMI_BASE;

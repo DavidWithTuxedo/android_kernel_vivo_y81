@@ -19,7 +19,7 @@
 #include <linux/semaphore.h>
 #include <linux/completion.h>
 
-#include "sspm_ipi_pin.h"
+#include "mt6765/sspm_ipi_pin.h"
 
 struct ipi_action {
 	void *data;

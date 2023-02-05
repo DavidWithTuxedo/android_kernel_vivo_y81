@@ -13,7 +13,7 @@
 #ifndef __LAYER_STRATEGY_EX__
 #define __LAYER_STRATEGY_EX__
 
-#include "layering_rule_base.h"
+#include "../../common/layering_rule_base/v1.1/layering_rule_base.h"
 
 #ifdef CONFIG_MTK_ROUND_CORNER_SUPPORT
 #define MAX_PHY_OVL_CNT (12-2)

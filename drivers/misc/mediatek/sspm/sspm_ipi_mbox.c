@@ -18,13 +18,13 @@
 #include <linux/atomic.h>
 #include <linux/io.h>
 #include <mt-plat/sync_write.h>
-#include "sspm_define.h"
+#include "mt6765/sspm_define.h"
 #include "sspm_helper.h"
 #include "sspm_mbox.h"
 #include "sspm_ipi.h"
 #include "sspm_ipi_mbox.h"
 #define IPI_MONITOR
-#include "sspm_ipi_define.h"
+#include "mt6765/sspm_ipi_define.h"
 
 #define TIMEOUT_COMPLETE msecs_to_jiffies(2000)
 

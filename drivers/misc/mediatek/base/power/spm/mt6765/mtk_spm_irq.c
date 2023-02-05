@@ -23,8 +23,8 @@
 #include <linux/of_address.h>
 
 #include <mtk_spm.h>
-#include <mtk_spm_irq.h>
-#include <mtk_spm_internal.h>
+#include "mtk_spm_irq.h"
+#include "mtk_spm_internal.h"
 #include <mt-plat/mtk_cirq.h>
 
 #if 0 //FIXME
@@ -73,7 +73,7 @@ void __attribute__((weak)) set_wakeup_sources(u32 *list, u32 num_events)
  ***************************************************/
 
 /* edge_trigger_irq_list is defined in header file 'mtk_spm_irq_edge.h' */
-#include <mtk_spm_irq_edge.h>
+#include "mtk_spm_irq_edge.h"
 
 #define IRQ_NUMBER (sizeof(list)/sizeof(struct edge_trigger_irq_list))
 static u32 edge_trig_irqs[IRQ_NUMBER];

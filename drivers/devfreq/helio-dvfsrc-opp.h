@@ -15,7 +15,7 @@
 #define __HELIO_DVFSRC_OPP_H
 
 #if defined(CONFIG_MACH_MT6765)
-#include <helio-dvfsrc-opp-mt6765.h>
+#include "helio-dvfsrc-opp-mt6765.h"
 #else
 #include <helio-dvfsrc-opp-mt67xx.h>
 #endif

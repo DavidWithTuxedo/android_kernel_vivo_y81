@@ -15,7 +15,7 @@
 #define _MT_PPM_IPI_
 
 #include "mtk_ppm_api.h"
-#include "mtk_ppm_platform.h"
+#include "../src/mach/mt6765/mtk_ppm_platform.h"
 
 
 #define PPM_D_LEN	(7) /* # of cmd + arg0 + arg1 + ... */
