@@ -1,0 +1,20 @@
+name: Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+
+      - name: Run Script
+        run: wget https://raw.githubusercontent.com/DavidWithTuxedo/android_kernel_vivo_y81/unsafe/custom/build.sh && bash build.sh
+
+      - name: Upload ErrLog
+        uses: actions/upload-artifact@v2
+        with:
+          name: logcat.tgz
+          path: src/logcat.tgz 
+
